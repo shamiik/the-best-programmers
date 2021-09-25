@@ -1,0 +1,74 @@
+[
+    {
+        "id": "7c1",
+        "name": "Dennis Ritchie",
+        "designation": "Programmer",
+        "developer": "C programming",
+        "salary": 2000000,
+        "img": "https://i1.wp.com/www.rankred.com/wp-content/uploads/2019/07/Dennis-Ritchie.jpg"
+    },
+    {
+        "id": "7c2",
+        "name": "Linus Torvalds",
+        "designation": "Programmer",
+        "developer": "Linux Kernel Code",
+        "salary": 2000000,
+        "img": "https://i2.wp.com/www.rankred.com/wp-content/uploads/2019/07/Linus-Torvalds.jpg"
+    },
+    {
+        "id": "7p3",
+        "name": "Bjarne Stroustrup",
+        "designation": "Programmer",
+        "developer": "C programming",
+        "salary": 2000000,
+        "img": "https://i0.wp.com/www.rankred.com/wp-content/uploads/2019/07/Bjarne-Stroustrup.jpg"
+    },
+    {
+        "id": "7p4",
+        "name": "Tim Berners-Lee",
+        "designation": "Programmer",
+        "developer": "HTTP Client Server",
+        "salary": 2000000,
+        "img": "https://i2.wp.com/www.rankred.com/wp-content/uploads/2019/07/Tim-Berners-Lee.jpg"
+    },
+    {
+        "id": "2p5",
+        "name": "Ken Thompson",
+        "designation": "Programmer",
+        "developer": "Unix OS",
+        "salary": 2000000,
+        "img": "https://i1.wp.com/www.rankred.com/wp-content/uploads/2019/07/Ken-Thompson.jpg"
+    },
+    {
+        "id": "7p6",
+        "name": "Brian Kernighan",
+        "designation": "Programmer",
+        "developer": "AMPL & AWK programming",
+        "salary": 2000000,
+        "img": "https://i2.wp.com/www.rankred.com/wp-content/uploads/2019/07/Brian-Kernighan.jpg"
+    },
+    {
+        "id": "7p7",
+        "name": "Alan Curtis Kay",
+        "designation": "Programmer",
+        "developer": "GUI",
+        "salary": 2000000,
+        "img": "https://i2.wp.com/www.rankred.com/wp-content/uploads/2019/07/Alan-Curtis-Kay.jpg"
+    },
+    {
+        "id": "7p8",
+        "name": "James Arthur Gosling",
+        "designation": "Programmer",
+        "developer": "UNIX",
+        "salary": 2000000,
+        "img": "https://i2.wp.com/www.rankred.com/wp-content/uploads/2019/07/James-Arthur-Gosling.jpg"
+    },
+    {
+        "id": "7c9",
+        "name": "John Carmack",
+        "designation": "Programmer",
+        "developer": "Reverse Algorithm",
+        "salary": 2000000,
+        "img": "https://i2.wp.com/www.rankred.com/wp-content/uploads/2019/07/John-Carmack.jpg"
+    }
+]
