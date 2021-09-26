@@ -1,17 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import { useEffect } from 'react';
 import Header from './components/Header/Header';
+import Body from './components/Body/Body';
 
 function App() {
-  useEffect(() => {
-    fetch('./realdb.JSON')
-      .then(res => res.json())
-      .then(data => console.log(data));
-  }, [])
   return (
     <div>
       <Header></Header>
+      <Body></Body>
     </div>
   );
 }
