@@ -12,5 +12,9 @@ Here : https://the-best-programmers.netlify.app/
 
 ## Details
 
-To create This project I used 
-bootstarp, react Javascript & for icon used fontAwesome.
+at first creating components folder then used
+- Bootstarp & pure css
+- react Javascript 
+    + destructuring
+- for icon used fontAwesome
+
