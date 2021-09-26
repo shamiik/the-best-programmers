@@ -1,21 +1,25 @@
 import React from 'react';
 import './Person.css'
+
 const Person = (props) => {
-    const { name, img, developer, designation, salary } = props.person;
+    const { name, img, developer, designation, salary, nationality, known } = props.person;
+
     return (
-        <div className='person'>
-            <div className='card-body card'>
-                <img src={img} className='person-img' alt="..." />
-                <h2>{name}</h2>
-                <p>Developed: {developer}</p>
-                <p>Designation: {designation}</p>
-                <p>Salary: ${salary}</p>
-                <button>Add to Listed</button>
-                {/* <button
-                    onClick={() => props.handleAddToCart(props.product)}
-                    className='btn-regular'> {cartIcon} Add to Cart</button> */}
+        <div>
+            <div className='card-body card person '>
+                <img src={img} className='person-img ' alt="..." />
+                <div className='person-info'>
+                    <h2>{name}</h2>
+                    <p>Developed: {developer}</p>
+                    <p>Designation: {designation}</p>
+                    <p>Born in: {nationality}</p>
+                    <p>Known for: {known}</p>
+                    <p>Salary: ${salary}</p>
+                </div>
+                <button onClick={() => props.handleAddToCart(props.person)} className='btn btn-primary'>Add to Listed</button>
             </div>
         </div>
+
     );
 };
 
