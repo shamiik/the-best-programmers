@@ -1,7 +1,9 @@
+/* person card style  */
 .person{
     border-radius: 10px;
     background-color: lightblue;
 }
+
 .person-img{
     width: 320px;
     height:220px;
@@ -10,5 +12,4 @@
 }
 .person-info{
     padding: 15px;
-
 }
