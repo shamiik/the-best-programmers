@@ -17,7 +17,8 @@ const Cart = (props) => {
             <p className='fw-bold'>Listed Person Name:</p>
             <ul>
                 {
-                    cart.map(person => <li>{person.name}</li>)
+                    cart.map(person => <li key={person.id}>
+                        {person.name}</li>)
                 }
             </ul>
 
