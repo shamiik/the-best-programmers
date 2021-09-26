@@ -8,11 +8,10 @@ const Cart = (props) => {
     const total = cart.reduce(totalReducer, 0)
 
     return (
-        <div>
+        <div className='cart'>
             <h3>Listed Person: {cart.length}</h3>
             <h4>Total Salary: ${total}</h4>
             <ul>
-                <br />
                 {
                     cart.map(person => <li>{person.name}</li>)
                 }

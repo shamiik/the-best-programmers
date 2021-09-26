@@ -13,7 +13,7 @@ const Person = (props) => {
                     <p>Developed: {developer}</p>
                     <p>Designation: {designation}</p>
                     <p>Born in: {nationality}</p>
-                    <p>Known for: {known}</p>
+                    <p>Known for: <span className='fw-bold'>{known}</span> </p>
                     <p>Salary: ${salary}</p>
                 </div>
                 <button onClick={() => props.handleAddToCart(props.person)} className='btn btn-primary'>Add to Listed</button>
