@@ -9,7 +9,11 @@ const Person = (props) => {
                 <h2>{name}</h2>
                 <p>Developed: {developer}</p>
                 <p>Designation: {designation}</p>
-                <p>Salary: {salary}</p>
+                <p>Salary: ${salary}</p>
+                <button>Add to Listed</button>
+                {/* <button
+                    onClick={() => props.handleAddToCart(props.product)}
+                    className='btn-regular'> {cartIcon} Add to Cart</button> */}
             </div>
         </div>
     );

@@ -19,7 +19,7 @@ const Body = () => {
                 }
             </div>
             <div>
-                <h2>Person Numbered</h2>
+                <h2>Person listed</h2>
             </div>
         </div>
     );
