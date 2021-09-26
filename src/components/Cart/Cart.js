@@ -9,13 +9,15 @@ const Cart = (props) => {
 
     return (
         <div className='cart card-body card'>
-            <h3>Listed Person: {cart.length}</h3>
+            <h3> <i class="fas fa-users"></i> Listed Person: {cart.length}</h3>
             <h4>Total Salary: ${total}</h4>
+            <p className='fw-bold'>Listed Person Name:</p>
             <ul>
                 {
                     cart.map(person => <li>{person.name}</li>)
                 }
             </ul>
+
         </div>
     );
 };

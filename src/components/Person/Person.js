@@ -7,7 +7,7 @@ const Person = (props) => {
     return (
         <div>
             <div className='card-body card person '>
-                <img src={img} className='person-img ' alt="..." />
+                <img src={img} className='person-img img-fluid' alt="..." />
                 <div className='person-info'>
                     <h3>{name}</h3>
                     {/* 
@@ -26,7 +26,7 @@ const Person = (props) => {
                         <li>Salary: ${salary}</li>
                     </ul>
                 </div>
-                <button onClick={() => props.handleAddToCart(props.person)} className='btn btn-primary'>Add to Listed</button>
+                <button onClick={() => props.handleAddToCart(props.person)} className='btn btn-primary'>  <i class="fas fa-user"></i>  Add to Listed</button>
             </div>
         </div>
 
