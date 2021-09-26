@@ -1,13 +1,30 @@
-The Best Programmer
+# The Best Programmers
 
-This site is about The Greatest Programmers of the World.
+This project was bootstrapped with React App.
 
-Here is The Site: https://the-best-programmers.netlify.app/
+## Live Site Link
 
-***
-**
-*
-To create this site , I used 
-=> react javascript 
-=> bootstrap & plain css
-=> for icon used fontawesome
+The website =>[The Best Programmers](https://the-best-programmers.netlify.app/)
+
+## Direct Site Link
+
+Here : [https://the-best-programmers.netlify.app/]
+
+### `yarn test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `yarn build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `yarn eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
