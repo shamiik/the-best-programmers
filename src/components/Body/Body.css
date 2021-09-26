@@ -1,12 +1,12 @@
 .body-container{
     display:grid;
     grid-template-columns: 4fr 1fr;
-    background-color: rgb(211, 234, 240);
+    background-color: rgb(207, 241, 233);
     padding-top: 40px;
 
 }
 .person-container{
-    border-right: 1px solid rgb(150, 147, 147);
+    border-right: 1px solid rgb(143, 140, 140);
     margin-right: 5px;
     margin-left: 30px;
 }

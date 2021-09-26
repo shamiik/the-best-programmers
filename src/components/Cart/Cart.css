@@ -1,3 +1,7 @@
 .cart{
     padding-left: 15px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: lightblue;
+    position: fixed;
 }

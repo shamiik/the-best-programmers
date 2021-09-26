@@ -8,7 +8,7 @@ const Cart = (props) => {
     const total = cart.reduce(totalReducer, 0)
 
     return (
-        <div className='cart'>
+        <div className='cart card-body card'>
             <h3>Listed Person: {cart.length}</h3>
             <h4>Total Salary: ${total}</h4>
             <ul>
